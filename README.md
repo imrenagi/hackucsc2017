@@ -1,4 +1,4 @@
-#Be Anonymous
+#HackUCSC-2017
 
 This project can be built by `docker-compose`. So to build the whole things, you only need to
 * Install docker and docker-compose (follow [this](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04) direction)
