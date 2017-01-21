@@ -1,8 +1,8 @@
 var mysql = require('mysql')
 , async = require('async')
 
-var DB = 'beanonymous_db'
-, TEST_DB = 'beanonymous_test_db'
+var DB = 'hackucsc_db'
+, TEST_DB = 'hackucsc_test_db'
 
 exports.MODE_TEST = 'mode_test'
 exports.MODE_PRODUCTION = 'mode_production'

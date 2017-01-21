@@ -20,7 +20,10 @@
     "mysql": "^2.11.1",
     "serve-favicon": "~2.3.0",
     "socket.io": "^1.4.6",
-    "async": "~2.0.0-rc.6"
+    "async": "~2.0.0-rc.6",
+    "db-migrate": "^0.10.0-beta.20",
+    "db-migrate-mysql": "^1.1.10",
+    "promise": "^7.1.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
