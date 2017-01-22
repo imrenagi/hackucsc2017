@@ -6,9 +6,14 @@ $(function () {
                 zoomType: 'x',
                 style: {
                    fontFamily: 'Roboto'
-                }
+                },
+                backgroundColor: "#006666"
             },
             title: {
+                style: {
+                   color: 'd9d9d9',
+                   fontWeight: 'bold'
+                },
                 text: 'Daily Revenue over Time'
             },
             subtitle: {
@@ -36,8 +41,8 @@ $(function () {
                             y2: 1
                         },
                         stops: [
-                            [0, Highcharts.getOptions().colors[0]],
-                            [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0.8).get('rgba')]
+                            [0, Highcharts.getOptions().colors[1]],
+                            [1, Highcharts.Color(Highcharts.getOptions().colors[1]).setOpacity(0.8).get('rgba')]
                         ]
                     },
                     marker: {
