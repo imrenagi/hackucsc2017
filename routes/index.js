@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var dataController = require('../controllers/dataController');
+var orderController = require('../controllers/orderController');
 
 router.use(function(req, res, next){
   res.setHeader('Content-Type', 'application/json');
@@ -14,5 +15,7 @@ router.get('/', function(req, res) {
 router.get('/sales', dataController.getTotalSales);
 router.get('/topDishes', dataController.topDishes);
 router.get('/worstDishes', dataController.worstDishes);
+
+router.post('/order', orderController.createOrder);
 
 module.exports = router;
