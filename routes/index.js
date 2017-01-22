@@ -12,6 +12,7 @@ router.get('/', function(req, res) {
 })
 
 router.get('/sales', dataController.getTotalSales);
-
+router.get('/topDishes', dataController.topDishes);
+router.get('/worstDishes', dataController.worstDishes);
 
 module.exports = router;
