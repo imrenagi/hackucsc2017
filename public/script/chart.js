@@ -7,7 +7,6 @@ $(function () {
                 style: {
                    fontFamily: 'Roboto'
                 },
-                backgroundColor: "#006666"
             },
             title: {
                 style: {
