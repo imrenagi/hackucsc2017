@@ -27,6 +27,7 @@ db.connect(dbEnvironment, function(err){
     process.exit(1)
   } else {
     // io.on('connection', chat.onListening);
+    console.log('Connect to database');
     server.listen(port);
     server.on('error', onError);
     server.on('listening', onListening);    
