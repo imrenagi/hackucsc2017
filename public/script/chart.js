@@ -7,15 +7,20 @@ $(function () {
                 style: {
                    fontFamily: 'Roboto'
                 },
+                backgroundColor: '#0d1a00'
             },
             title: {
                 style: {
-                   color: 'd9d9d9',
+                   color: '#d9d9d9',
                    fontWeight: 'bold'
                 },
                 text: 'Daily Revenue over Time'
             },
             subtitle: {
+                style: {
+                   color: '#d9d9d9',
+                   fontWeight: 'bold'
+                },
                 text: document.ontouchstart === undefined ?
                         'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
             },
@@ -59,7 +64,7 @@ $(function () {
 
             series: [{
                 type: 'area',
-                name: 'USD to EUR',
+                name: 'Revenue (USD)',
                 data: data
             }]
         });
