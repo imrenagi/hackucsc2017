@@ -15,7 +15,11 @@
  */
 
 html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+main {
+   background-image: url(../images/food1.jpg);
+   background-size: cover;
 }
 .demo-avatar {
   width: 48px;
@@ -61,6 +65,7 @@ html, body {
 
 .demo-navigation {
   flex-grow: 1;
+  background-image: url(../images/panelbk.jpg);
 }
 .demo-layout .demo-navigation .mdl-navigation__link {
   display: flex !important;
@@ -81,6 +86,8 @@ html, body {
 
 .demo-content {
   max-width: 1080px;
+  opacity: 0.8;
+  color: #999999;
 }
 
 .demo-charts {

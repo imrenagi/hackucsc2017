@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0050)file:///C:/hackathons/ucsc2017/frontend/index.html -->
+<!-- saved from url=(0050)index.html -->
 <html lang="en" class="mdl-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,19 +9,19 @@
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="file:///C:/hackathons/ucsc2017/frontend/images/android-desktop.png">
+    <link rel="icon" sizes="192x192" href="../public/images/android-desktop.png">
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <link rel="apple-touch-icon-precomposed" href="file:///C:/hackathons/ucsc2017/frontend/images/ios-desktop.png">
+    <link rel="apple-touch-icon-precomposed" href="../public/images/ios-desktop.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#3372DF">
 
-    <link rel="shortcut icon" href="file:///C:/hackathons/ucsc2017/frontend/images/favicon.png">
+    <link rel="shortcut icon" href="../public/images/favicon.png">
 
     <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
     <!--
@@ -43,7 +43,7 @@
       z-index: 900;
     }
     </style>
-    <script defer="" src="./index_files/material.min.js.download"></script>
+    <script defer="" src="../public/index_files/material.min.js.download"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
@@ -54,7 +54,7 @@
     <div class="mdl-layout__container"><div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header has-drawer is-upgraded" data-upgraded=",MaterialLayout">
       <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600 is-casting-shadow"><div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><i class="material-icons"></i></div>
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Restaurant 1</span>
+          <span class="mdl-layout-title">The Sicilian Invasion</span>
           <div class="mdl-layout-spacer"></div>
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable is-upgraded" data-upgraded=",MaterialTextfield">
             <div class="mdl-textfield__expandable-holder">
@@ -74,7 +74,7 @@
       </header>
       <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50" aria-hidden="true">
         <header class="demo-drawer-header">
-          <img src="./index_files/user.jpg" class="demo-avatar">
+          <img src="../public/index_files/user.jpg" class="demo-avatar">
           <div class="demo-avatar-dropdown">
             <span>gordon@ramsay.com</span>
             <div class="mdl-layout-spacer"></div>
@@ -90,11 +90,10 @@
           </div>
         </header>
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
-          <a class="mdl-navigation__link" href="file:///C:/hackathons/ucsc2017/frontend/index.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">shopping_cart</i>Restaurant 1</a>
-          <a class="mdl-navigation__link" href="file:///C:/hackathons/ucsc2017/frontend/index.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">shopping_cart</i>Restaurant 2</a>
-          <a class="mdl-navigation__link" href="file:///C:/hackathons/ucsc2017/frontend/index.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">shopping_cart</i>Restaurant 3</a>
+          <a class="mdl-navigation__link" href="dashboard.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">restaurant</i>The Sicilian Invasion</a>
+          <a class="mdl-navigation__link" href="dashboard.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">restaurant</i>Corleone's Diner</a>
           <div class="mdl-layout-spacer"></div>
-          <a class="mdl-navigation__link" href="file:///C:/hackathons/ucsc2017/frontend/index.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">help_outline</i><span class="visuallyhidden">Help</span></a>
+          <a class="mdl-navigation__link" href="dashboard.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">help_outline</i><span class="visuallyhidden">Help</span></a>
         </nav>
       </div>
       <main class="mdl-layout__content mdl-color--grey-100">
@@ -106,6 +105,8 @@
                 </li>
                 <li> Basil Pesto Pizza
                 </li>
+                <li> Mac N Cheese
+                </li>
              </ol>
           </div>
           <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--4-col">
@@ -113,6 +114,8 @@
              <p>
              <ol>
                 <li> Duck Confit
+                </li>
+                <li> Chicken Calzone
                 </li>
                 <li> Dolce Gellato
                 </li>
@@ -122,9 +125,11 @@
              <h5>&nbsp;&nbsp;&nbsp;&nbsp;Next Week's Specials:</h5>
              <p>
              <ol>
-                <li> Not Varun
+                <li> Basil Pesto Pizza
                 </li>
-                <li> Not Varun
+                <li> Seafood Linguini
+                </li>
+                <li> 4 Cheese Pizza
                 </li>
              </ol>
           </div>
