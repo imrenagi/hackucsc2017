@@ -8,9 +8,9 @@ router.use(function(req, res, next){
   next();
 })
 
-router.get('/', function(req, res) {
-  res.render('index', {title:"HackUCSC"});
-})
+// router.get('/', function(req, res) {
+//   res.render('/views/index.html', {title:"HackUCSC"});
+// })
 
 router.get('/sales', dataController.getTotalSales);
 router.get('/topDishes', dataController.topDishes);
