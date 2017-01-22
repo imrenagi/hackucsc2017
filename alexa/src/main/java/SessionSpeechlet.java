@@ -4,7 +4,10 @@ import com.amazon.speech.ui.PlainTextOutputSpeech;
 import com.amazon.speech.ui.Reprompt;
 import com.amazon.speech.ui.SimpleCard;
 
-public class SpeechletHandler implements Speechlet {
+/**
+ * Created by shahbaaz on 1/21/17.
+ */
+public class SessionSpeechlet implements Speechlet {
 
     public static final String WELCOME_MESSAGE = "Hi! I’m Chef, your virtual host today. " +
             "I’d love to help you with anything! You can talk to me anytime by saying - Alexa, ask " +
@@ -12,8 +15,8 @@ public class SpeechletHandler implements Speechlet {
 
     public static final String OPTIONS_PROMPT = "You can ask me about a dish, order something, or make your payment";
 
-    public static final String OPTIONS = "Here's some things you can say. What do you have in Chinese? Tell me today's special. " +
-            "Describe the flat iron steak. I'd like to make my payment.";
+    public static final String OPTIONS = "Here's some things you can say. What do you have in Chinese? " +
+            "Tell me today's special. Describe the flat iron steak. I'd like to make my payment.";
 
     public static SpeechletResponse getWelcomeResponse() {
         String speechText = WELCOME_MESSAGE;
@@ -107,6 +110,7 @@ public class SpeechletHandler implements Speechlet {
         String repromptText = "Anything in particular?";
         return getSpeechletResponse(speechText, repromptText, true);
     }
+
     private SpeechletResponse getVegetarianSaladReco(final Intent intent, final Session session) {
         String speechText = "Our most popular vegetarian dish is the caesar salad. Would you like that?";
         String repromptText = "Shall I order the caesar salad?";
